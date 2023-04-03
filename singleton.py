@@ -8,8 +8,8 @@ def singleton(cls):
 
 @singleton
 class SingletonList(list):
-    def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, **kwargs)
+    def __init__(self):
+        super().__init__()
 
 
 a = SingletonList()
