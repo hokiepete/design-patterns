@@ -14,4 +14,4 @@ class SingletonList(list):
 
 a = SingletonList()
 b = SingletonList()
-assert a is b
+print(a is b)
